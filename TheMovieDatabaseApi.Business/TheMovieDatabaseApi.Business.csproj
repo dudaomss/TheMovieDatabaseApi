@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheMovieDatabase.Dto\TheMovieDatabaseApi.Dto.csproj" />
+    <ProjectReference Include="..\TheMovieDatabase.Interface\TheMovieDatabaseApi.Business.Interface.csproj" />
+    <ProjectReference Include="..\TheMovieDatabaseApi.Repository.Interface\TheMovieDatabaseApi.Repository.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
